@@ -1,18 +1,14 @@
-# Salesforce DX Project: Next Steps
+# The visitor Pattern
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+### _This pattern is used to seperate the algorithm from the ojbect structure that it operates on_
 
-## How Do You Plan to Deploy Your Changes?
+Implementation of the Visitor Pattern as found in the book Apex Design Patterns
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
 
-## Configure Your Salesforce DX Project
+The visitor pattern solves the problem of double dispatch. In this case the Pop Rock class
+is a child of Pop and  grand child of music. 
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
 
-## Read All About It
+---
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+[Apex Design Patterns book](https://www.amazon.com/Apex-Design-Patterns-Jitendra-Zaa-ebook/dp/B017XSFL5K)

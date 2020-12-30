@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="IlluminatedCloud" version="4">
+  <component name="FacetManager">
+    <facet type="IlluminatedCloud" name="Illuminated Cloud">
+      <configuration>
+        <option name="connectionName" value="design-scratch" />
+        <option name="connectionType" value="SFDX" />
+        <option name="moduleContents">
+          <ModuleContents>
+            <option name="contentSelectionType" value="SELECTED" />
+          </ModuleContents>
+        </option>
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
@@ -8,7 +21,7 @@
     <content url="file://$MODULE_DIR$/force-app">
       <sourceFolder url="file://$MODULE_DIR$/force-app/main/default" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="IlluminatedCloud (Apex Visitor Pattern/design-scratch)" jdkType="IlluminatedCloud" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
